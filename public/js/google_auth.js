@@ -1,4 +1,4 @@
-    
+
 class User {
     constructor(userName) {
         this.userName = userName;
@@ -35,7 +35,7 @@ function onSignIn(googleUser) {
     // ajax call to store user info.
     function addUser() {
         $.post("/api/users", userObj, (err, result) => {
-            console.log(result);
+            // console.log(result);
         });
     }
     $("#my-posts").attr("href", "/signed/" + username + "/posts");

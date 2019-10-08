@@ -1,9 +1,12 @@
 // SERVER TAKE TWO 
 const express = require("express");
 const exphbs = require("express-handlebars");
+const cors = require('cors');
+
+const db = require("./models");
+const Seeds = require("./seeds");
 
 const app = express();
-
 const PORT = process.env.PORT || 8008;
 
 app.use(express.urlencoded({ extended: true }));
@@ -18,8 +21,10 @@ require("./routes/api-routes.js")(app);
 
 app.listen(PORT, function () {
   console.log("App now listening at localhost:" + PORT)
+
 });
 
+module.exports = app;
 
 // // Requiring necessary npm packages
 
