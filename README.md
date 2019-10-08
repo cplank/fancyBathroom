@@ -7,18 +7,18 @@ Anyone can view Instapotty's collection of potties, but you'll need to create an
 This project is a continuation of the original [Instapotty project](https://github.com/ivancho277/fancyBathroom), and is currently **in development**.
 
 ## Roadmap
-* Search Bar - enable sesarch by tags
+* ~~Search Bar - enable sesarch by tags
 * Sort By Favorites Button:
     * If signed in: only show images you've personally favorited
     * If not signed in: show all favorited images sorted by number of likes
 * Sign in:
     * Be able to favorite when logged in
-    * View your posts
+    * ~~View your posts
     * When searching from "MyPosts" only show the user's posts in the search
 * Edit and Delete functionality
 * Google Maps:
     * Get map to open up in new tab
-    * Shorten how address is displayed
+    * ~~Shorten how address is displayed
 
 **Longterm Goals**
 Convert to a progressive web app
